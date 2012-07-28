@@ -1,0 +1,19 @@
+Things we talked about:
+
+* distributed / open source design is hard
+* what does it mean for the course to be open?
+* software & course codesign
+* what would an open kit look like?
+* design process lead back to openness & meaningful context
+
+This (or another paper of hers) may be useful: Buechley, L., and Eisenberg, M. (2008). The LilyPad Arduino: Toward Wearable Engineering for Everyone. Wearable Computing Column in IEEE Pervasive, 7(2), pp. 12-15. (Invited submission)
+
+What order would make sense for this paper? Actually, this is the order in which it happened.
+
+* asked what would it mean for a course to be open; decided that we'd be designing for everyone and chose to focus on particular context
+* developed personas & worked on understanding values in the context
+* realized that distributed & open (course) design is incredibly hard
+* had the miniature house idea to address the learning objectives
+* discovered through our process that there was something appropriate for the context, the contrast house
+* following through with the notion of the contrast miniature house, we're now able to produce an open kit includind instructions that uses the context we chose but makes a useful tool openly available to everyone who's potentially interested in it -- providing them with a way of being introduced to both electronics & computing
+
