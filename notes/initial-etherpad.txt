@@ -15,5 +15,5 @@ What order would make sense for this paper? Actually, this is the order in which
 * realized that distributed & open (course) design is incredibly hard
 * had the miniature house idea to address the learning objectives
 * discovered through our process that there was something appropriate for the context, the contrast house
-* following through with the notion of the contrast miniature house, we're now able to produce an open kit includind instructions that uses the context we chose but makes a useful tool openly available to everyone who's potentially interested in it -- providing them with a way of being introduced to both electronics & computing
+* following through with the notion of the contrast miniature house, we're now able to produce an open kit including instructions that uses the context we chose but makes a useful tool openly available to everyone who's potentially interested in it -- providing them with a way of being introduced to both electronics & computing
 
