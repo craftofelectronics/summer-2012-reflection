@@ -1,0 +1,53 @@
+% From http://pastebin.com/JWFjbZ1q
+\documentclass[12pt,oneside,openright,% regular options
+               DIV10,BCOR7mm,% page size options
+               halfparskip,smallheadings,pointlessnumbers]% KOMA options
+               {scrreprt} % Class: KOMA-script version of 'report'
+\usepackage[T1]{fontenc} % for Vera sans
+
+\usepackage{varioref}
+\usepackage{enumerate}
+\usepackage{comment}
+\usepackage{cclicenses}
+
+% Palatino font
+\usepackage[osf,sc]{mathpazo}
+\linespread{1.15} % Palatino requires slightly more line spacing
+% Bitstream Vera Sans font
+\usepackage[scaled]{berasans}
+% Now recalculate type area based on these new fonts
+\typearea[current]{last}
+
+\usepackage[dvipsnames,usenames]{xcolor}
+\definecolor{berea}{RGB}{00,90,139}
+% Fancy chapter headings
+%\usepackage[dvipsnames,usenames]{color}
+\usepackage{quotchap}
+\renewcommand*{\chapnumfont}{% 
+	\usefont{T1}{fvs}{b}{n}\fontsize{100}{130}\selectfont% 
+	\color{berea}}
+
+% Subfigures, sans-serif counters
+%\usepackage[sf,SF]{subfigure}
+\usepackage{wrapfig}
+\usepackage{subfig}
+
+% Setting figure captions off from the rest of the text somewhat
+\addtokomafont{caption}{\itshape\small}
+\addtokomafont{captionlabel}{\itshape\bfseries\small}
+\renewcommand*{\captionformat}{.\ }
+\setcapindent{0cm}
+\setcapmargin{1.75cm}
+
+
+% From https://bitbucket.org/uggedal/thesis/src/
+
+%\usepackage{palatino}
+\usepackage{url}
+\usepackage{graphicx}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+%\title{Crafting a Collaborative \\ Learning Space}
+%\author{Technology and Design \\ Computer Science}
+%\date{April 25$^{th}$, 2012  \\ \ \\ \ \\ \cc \by \ccsa}
